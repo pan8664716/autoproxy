@@ -5170,10 +5170,6 @@ var FindProxyForURL = function(init, profiles) {
         if (scheme === "http" && url.indexOf(".pornerbros.com") >= 0) return "+proxy";
         if (/(?:^|\.)pornhd\.com$/.test(host)) return "+proxy";
         if (scheme === "http" && url.indexOf(".pornhost.com") >= 0) return "+proxy";
-        if (scheme === "http" && url.indexOf(".pornhub.com") >= 0) return "+proxy";
-        if (/(?:^|\.)pornhub\.com$/.test(host)) return "+proxy";
-        if (scheme === "http" && url.indexOf(".pornhubdeutsch.net") >= 0) return "+proxy";
-        if (/^http:\/\/pornhubdeutsch\.net/.test(url)) return "+proxy";
         if (/(?:^|\.)pornmm\.net$/.test(host)) return "+proxy";
         if (scheme === "http" && url.indexOf(".pornoxo.com") >= 0) return "+proxy";
         if (scheme === "http" && url.indexOf(".pornrapidshare.com") >= 0) return "+proxy";
