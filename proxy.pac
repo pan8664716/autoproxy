@@ -7260,6 +7260,6 @@ var FindProxyForURL = function(init, profiles) {
     "+proxy": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /^192\.169\.2\.1$/.test(host)) return "DIRECT";
-        return "HTTPS sg102932.cdn-aliyun.com:443";
+        return "HTTPS losasdsfesfsffw3.cdn-aliyun.com:443";
     }
 });
