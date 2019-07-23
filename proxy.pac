@@ -157,7 +157,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)uluai\.com\.cn$/.test(host)) return "DIRECT";
         if (/(?:^|\.)weibo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yahoo\.cn$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)youdao\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhongsou\.com$/.test(host)) return "DIRECT";
         if (/^http:\/\/ime\.baidu\.jp/.test(url)) return "DIRECT";
         if (/^http:\/\/85\.17\.73\.31\//.test(url)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
@@ -1498,6 +1497,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xn--ngstr-lra8j\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtu\.be$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (scheme === "http" && url.indexOf(".youtube.com") >= 0) return "+\u4ee3\u7406\u670d\u52a1\u5668";
+        if (/(?:^|\.)youdao\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtube\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtube-nocookie\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtubeeducation\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
