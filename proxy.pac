@@ -1497,7 +1497,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xn--ngstr-lra8j\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtu\.be$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (scheme === "http" && url.indexOf(".youtube.com") >= 0) return "+\u4ee3\u7406\u670d\u52a1\u5668";
-        if (/(?:^|\.)youdao\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
+        if (/(?:^|\.)note.youdao\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtube\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtube-nocookie\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
         if (/(?:^|\.)youtubeeducation\.com$/.test(host)) return "+\u4ee3\u7406\u670d\u52a1\u5668";
